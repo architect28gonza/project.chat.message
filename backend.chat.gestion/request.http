@@ -1,0 +1,24 @@
+
+# POST http://localhost:8080/api/v1/user
+# Content-Type: application/json
+
+# {
+#     "username": "fernando",
+#     "password": "123",
+#     "nickname": "ferff554",
+#     "photo": "/ap/v1/foto"
+# }
+
+# POST http://localhost:8081/api/v1/auth/login
+# Content-Type: application/json
+
+# {
+#     "username": "angel",
+#     "password": "123"
+# }
+
+
+GET http://localhost:8080/api/v1/friends/1
+Content-Type: application/json
+Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbmdlbCIsImlhdCI6MTcxMzEyNTExMiwiZXhwIjoxNzEzMTY4MzEyfQ.ov6UEvEqrXfj6o-lgF1uxuPnTx4ADRR-tie9TfaZiRY"
+

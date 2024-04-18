@@ -1,0 +1,47 @@
+
+# POST http://localhost:8081/api/v1/auth/login
+# Content-Type: application/json
+
+# {
+#     "username": "angel",
+#     "password": "123"
+# }
+
+
+# GET http://localhost:8080/api/v1/friends/1
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbmdlbCIsImlhdCI6MTcxMzEyMTczMywiZXhwIjoxNzEzMTY0OTMzfQ.DuNXojRyrCms2S6ghgM4IWY1Y5qH5tTQPZYtaBcMNRU
+
+
+GET http://localhost:8080/api/v1/friends/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbmdlbCIsImlhdCI6MTcxMzEyMzMwMywiZXhwIjoxNzEzMTY2NTAzfQ.GUAR6GKuvT6Kr_m7L5dTnB8o_ltkK1t4hdAc7_N_tKU
+
+
+
+
+# GET http://localhost:8081/api/v1/auth/test
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZTEiLCJpYXQiOjE3MTAxNjQwNzIsImV4cCI6MTcxMDIwNzI3Mn0.9Uq6MtMK0wNox2f5geLTcUVbI2G7SEm184pAuecSE3E
+
+
+# GET http://localhost:8081/api/v1/auth/google
+# Content-Type: application/json
+
+
+# POST http://localhost:8081/api/v1/auth/google
+# Content-Type: application/json
+
+# {
+#     "code": "4/0AeaYSHDv-pBKAHnVtJG43ei-oTyCYAbassLvD1n2GtXO6Cqh1Of4T0IQhPFeBqzA7h-u5A&scope=https://www.googleapis.com/auth/drive.file"
+# }
+
+
+# GET http://localhost:8081/api/v1/auth/facebook
+# Content-Type: application/json
+
+# eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbmdlbCIsImlhdCI6MTcxMjc2NTY5OCwiZXhwIjoxNzEyODA4ODk4fQ.iSsTrTV85YB4i9b3FDgt9qdvAcHI5sJWaeWzVw_R3DU
+
+# POST http://localhost:8081/api/v1/auth/token
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbmdlbCIsImlhdCI6MTcxMjc2NTY5OCwiZXhwIjoxNzEyODA4ODk4fQ.iSsTrTV85YB4i9b3FDgt9qdvAcHI5sJWaeWzVw_R3DU

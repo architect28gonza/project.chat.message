@@ -1,0 +1,2 @@
+export const ALERT_MESSAGE_INGRESAR: IAlert = { type: 'error', title: 'Accion no completada', message: 'Debe ingresar todos los campos para poder iniciar session' }
+export const ALERT_MESSAGE_USUARIO_INCORRECT: IAlert = { type: 'error', title: 'Credenciales', message: 'Su usuario o contraseña con incorrectos' }

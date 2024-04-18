@@ -1,0 +1,13 @@
+body {
+    /* background-color: rgba(197, 197, 197, 0.628); */
+    background-image: url("../assets/img/fondoCard.avif");
+    background-size: cover;
+    /* overflow-y: hidden; */
+    font-family: 'Space Mono', 'Courier New', monospace;
+}
+
+.ant-card-body {
+    background-image: url('../assets/img/154027-abstract-blue-and-white-background-design.jpg');
+    background-size: cover;
+    background-position: center;
+}
